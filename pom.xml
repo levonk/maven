@@ -47,13 +47,13 @@
     <maven.compiler.target>1.7</maven.compiler.target>
     <classWorldsVersion>2.5.2</classWorldsVersion>
     <commonsCliVersion>1.2</commonsCliVersion>
-    <commonsLangVersion>3.4</commonsLangVersion>
-    <junitVersion>4.11</junitVersion>
+    <commonsLangVersion>3.22.0</commonsLangVersion>
+    <junitVersion>4.13.2</junitVersion>
     <plexusVersion>1.6</plexusVersion>
     <plexusInterpolationVersion>1.21</plexusInterpolationVersion>
-    <plexusUtilsVersion>3.0.22</plexusUtilsVersion>
+    <plexusUtilsVersion>4.2.0</plexusUtilsVersion>
     <!-- Latest version of Guava that works with Sisu -->
-    <guavaVersion>18.0</guavaVersion>
+    <guavaVersion>33.8.0-jre</guavaVersion>
     <guiceVersion>4.0</guiceVersion>
     <sisuInjectVersion>0.3.2</sisuInjectVersion>
     <wagonVersion>2.10</wagonVersion>
@@ -62,7 +62,7 @@
     <modelloVersion>1.8.3</modelloVersion>
     <jxpathVersion>1.3</jxpathVersion>
     <aetherVersion>1.0.2.v20150114</aetherVersion>
-    <slf4jVersion>1.7.5</slf4jVersion>
+    <slf4jVersion>2.0.20</slf4jVersion>
     <maven.test.redirectTestOutputToFile>true</maven.test.redirectTestOutputToFile>
     <!-- Control the name of the distribution and information output by mvn -->
     <distributionId>apache-maven</distributionId>
@@ -280,7 +280,7 @@
       <dependency>
         <groupId>ch.qos.logback</groupId>
         <artifactId>logback-classic</artifactId>
-        <version>1.0.7</version>
+        <version>1.6.7</version>
         <optional>true</optional>
       </dependency>
       <!--  Wagon -->
